@@ -20,5 +20,6 @@ public class TaskDto {
     private String hint;
     private String method;
     private Integer languageId;
+    private Integer categoryId;
 
 }

@@ -23,6 +23,8 @@ public class Task {
     private boolean hasStar;
     @ManyToOne
     private Language language;
+    @ManyToOne
+    private Category category;
 
 
 }
